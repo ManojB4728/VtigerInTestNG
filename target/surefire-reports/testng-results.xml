@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-20T09:59:53 IST" name="Regression" finished-at="2023-07-20T10:01:48 IST" duration-ms="115106">
+    <groups>
+    </groups>
+    <test started-at="2023-07-20T09:59:53 IST" name="Test" finished-at="2023-07-20T10:00:19 IST" duration-ms="25417">
+      <class name="Leads.TC003_Delete_A_Lead_And_Verify_If_Lead_Is_Deleted_Successfully">
+        <test-method is-config="true" signature="Depends_On_Scripts()[pri:0, instance:Leads.TC003_Delete_A_Lead_And_Verify_If_Lead_Is_Deleted_Successfully@767e20cf]" started-at="2023-07-20T09:59:53 IST" name="Depends_On_Scripts" finished-at="2023-07-20T10:00:12 IST" duration-ms="18678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Depends_On_Scripts -->
+        <test-method signature="Delete_The_Created_And_Updated_Lead()[pri:0, instance:Leads.TC003_Delete_A_Lead_And_Verify_If_Lead_Is_Deleted_Successfully@767e20cf]" started-at="2023-07-20T10:00:12 IST" name="Delete_The_Created_And_Updated_Lead" finished-at="2023-07-20T10:00:18 IST" duration-ms="6610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_The_Created_And_Updated_Lead -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Leads.TC003_Delete_A_Lead_And_Verify_If_Lead_Is_Deleted_Successfully@767e20cf]" started-at="2023-07-20T10:00:19 IST" name="close_browser" finished-at="2023-07-20T10:00:19 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Leads.TC003_Delete_A_Lead_And_Verify_If_Lead_Is_Deleted_Successfully -->
+    </test> <!-- Test -->
+    <test started-at="2023-07-20T10:00:19 IST" name="Test1" finished-at="2023-07-20T10:00:47 IST" duration-ms="28540">
+      <class name="Organization.TC003_Delete_An_Organization_And_Verify_If_Organization_Is_Deleted_successfully">
+        <test-method is-config="true" signature="Depends_On_Scripts()[pri:0, instance:Organization.TC003_Delete_An_Organization_And_Verify_If_Organization_Is_Deleted_successfully@3700ec9c]" started-at="2023-07-20T10:00:19 IST" name="Depends_On_Scripts" finished-at="2023-07-20T10:00:40 IST" duration-ms="21486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Depends_On_Scripts -->
+        <test-method signature="Delete_The_Created_And_Updated_Lead()[pri:0, instance:Organization.TC003_Delete_An_Organization_And_Verify_If_Organization_Is_Deleted_successfully@3700ec9c]" started-at="2023-07-20T10:00:40 IST" name="Delete_The_Created_And_Updated_Lead" finished-at="2023-07-20T10:00:47 IST" duration-ms="6964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_The_Created_And_Updated_Lead -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Organization.TC003_Delete_An_Organization_And_Verify_If_Organization_Is_Deleted_successfully@3700ec9c]" started-at="2023-07-20T10:00:47 IST" name="close_browser" finished-at="2023-07-20T10:00:47 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Organization.TC003_Delete_An_Organization_And_Verify_If_Organization_Is_Deleted_successfully -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-07-20T10:00:47 IST" name="Test2" finished-at="2023-07-20T10:01:23 IST" duration-ms="35984">
+      <class name="Contacts.TC003_Delete_A_Contact_And_Verify_If_Contact_Is_Deleted_Sucessfully">
+        <test-method is-config="true" signature="Depends_On_Scripts()[pri:0, instance:Contacts.TC003_Delete_A_Contact_And_Verify_If_Contact_Is_Deleted_Sucessfully@1d470d0]" started-at="2023-07-20T10:00:47 IST" name="Depends_On_Scripts" finished-at="2023-07-20T10:01:17 IST" duration-ms="29520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Depends_On_Scripts -->
+        <test-method signature="Delete_The_Created_And_Updated_Lead()[pri:0, instance:Contacts.TC003_Delete_A_Contact_And_Verify_If_Contact_Is_Deleted_Sucessfully@1d470d0]" started-at="2023-07-20T10:01:17 IST" name="Delete_The_Created_And_Updated_Lead" finished-at="2023-07-20T10:01:23 IST" duration-ms="6349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_The_Created_And_Updated_Lead -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Contacts.TC003_Delete_A_Contact_And_Verify_If_Contact_Is_Deleted_Sucessfully@1d470d0]" started-at="2023-07-20T10:01:23 IST" name="close_browser" finished-at="2023-07-20T10:01:23 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Contacts.TC003_Delete_A_Contact_And_Verify_If_Contact_Is_Deleted_Sucessfully -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-07-20T10:01:23 IST" name="Test3" finished-at="2023-07-20T10:01:48 IST" duration-ms="25142">
+      <class name="Vendor.TC003_Delete_A_Vendor_And_Verify_If_Vendor_Is_Deleted_Sucessfully">
+        <test-method is-config="true" signature="Depends_On_Scripts()[pri:0, instance:Vendor.TC003_Delete_A_Vendor_And_Verify_If_Vendor_Is_Deleted_Sucessfully@2d1dee39]" started-at="2023-07-20T10:01:23 IST" name="Depends_On_Scripts" finished-at="2023-07-20T10:01:42 IST" duration-ms="18638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Depends_On_Scripts -->
+        <test-method signature="Delete_The_Created_And_Updated_Lead()[pri:0, instance:Vendor.TC003_Delete_A_Vendor_And_Verify_If_Vendor_Is_Deleted_Sucessfully@2d1dee39]" started-at="2023-07-20T10:01:42 IST" name="Delete_The_Created_And_Updated_Lead" finished-at="2023-07-20T10:01:48 IST" duration-ms="6434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_The_Created_And_Updated_Lead -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Vendor.TC003_Delete_A_Vendor_And_Verify_If_Vendor_Is_Deleted_Sucessfully@2d1dee39]" started-at="2023-07-20T10:01:48 IST" name="close_browser" finished-at="2023-07-20T10:01:48 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Vendor.TC003_Delete_A_Vendor_And_Verify_If_Vendor_Is_Deleted_Sucessfully -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Regression -->
+</testng-results>
